@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 8rem;
 }
 
 h2 {
@@ -100,7 +100,7 @@ a {
 
 /*----Structure----*/
 .container {
-    width: 80%;
+    width: 60%;
     margin: 4% auto;
 }
 
@@ -109,27 +109,31 @@ a {
 	height: 30vh;
 	background-attachment: fixed;
 	background-size: cover;
-	margin: 2% 0;
+	margin: 4% 0;
 }
 
 .project-flex {
 	display: flex;
-	justify-content: space-between;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 }
 
-.project-flex div {
-	width: 20%;
-	margin: 0 2%;
-}
 
 .project {
 	color: #fff;
+	height: 40vh;
+	flex-grow: 1;
+	margin-right: 2%;
+	margin-top: 4%;
 	background: url('https://picsum.photos/400/800');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.project_info {
+	flex-grow: 2;
+	width: 40%;
+	margin: 4% 0;
+}
 
 /*----Buttons----*/
 .btn {
