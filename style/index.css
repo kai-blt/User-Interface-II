@@ -133,7 +133,7 @@ span {
 
 /*----Structure----*/
 .container {
-    width: 80%;
+    width: 95%;
     margin: 4% auto;
 }
 
@@ -191,9 +191,10 @@ span {
 	letter-spacing: .2rem;
 	border: 1px solid #540b0e;
 	width: 15rem;
-	padding: 1% 1%;
+	padding: .5% 1%;
 	color: #9e2a2b;
 	background-color: #fff3b0;
+	text-align: center;
 }
 
 .btn:hover{
@@ -219,7 +220,7 @@ span {
 
 .projects-btn {
 	font-size: 2.5rem;
-	width: 22rem;
+	width: 24rem;
 	padding: 1% 1%;
 }
 
