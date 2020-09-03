@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -61,10 +63,11 @@ html {
     font-size: 62.5%;
 }
 
-body {
+body {	
+	font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
-    line-height: 1.5;
+	line-height: 1.7;
 }
 
 header {
@@ -80,7 +83,8 @@ section {
 	margin: 2% 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {	
+	font-family: 'Prata', serif;
     font-weight: 700;
 }
 
