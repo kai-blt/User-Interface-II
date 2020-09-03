@@ -107,10 +107,17 @@ h2 {
     font-size: 2.5rem;
 }
 
+h3 {
+	font-size: 2.5rem;
+	margin: 8% 8%;
+	color: #fff;
+	text-shadow: .2rem .2rem #000;
+}
+
 a {
 	text-decoration: none;
 	display: inline-block;	
-	color: #000;
+	color: #fff3b0;
 }
 
 /*----Structure----*/
@@ -138,12 +145,20 @@ a {
 	color: #fff;
 	height: 40vh;
 	flex-grow: 1;
-	margin-right: 2%;
+	margin-right: 4%;
 	margin-top: 4%;
 	background: url('https://picsum.photos/400/800');
 	background-size: cover;
 	background-repeat: no-repeat;
-	box-shadow: inset 20px 20px 40px #101214;
+	filter: grayscale(0%);
+	box-shadow: inset 5px 5px 40px #101214;
+}
+
+
+.project:hover {
+	color: #540b0e;
+	transition: 2s;
+	filter: grayscale(100%);
 }
 
 .project_info {
@@ -164,7 +179,7 @@ a {
 
 .btn:hover{
 	transition: 1s;
-	transform: scale(1, -1);
+	transform: rotateX(180deg);
 	background-color: #540b0e;
 }
 
