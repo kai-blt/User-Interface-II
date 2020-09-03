@@ -47,9 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-/*----Main CSS Begin----*/
+
+
+
+
+
+/*----Base CSS Begin----*/
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
@@ -64,15 +69,15 @@ body {
 
 header {
 	text-align: center;
-	margin: 4rem 0;	
+	margin: 2% 0;	
 }
 
 nav {
-	margin: 4rem 0;
+	margin: 2% 0;
 }
 
 section {
-	margin: 4rem 0;
+	margin: 2% 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -88,7 +93,9 @@ h2 {
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
 }
 
 /*----Structure----*/
@@ -102,16 +109,33 @@ a {
 	height: 30vh;
 	background-attachment: fixed;
 	background-size: cover;
-	margin: 4rem 0;
+	margin: 2% 0;
 }
 
-.row-flex {
+.project-flex {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row nowrap;
 }
 
+.project-flex div {
+	width: 20%;
+}
+
 /*----Buttons----*/
 .btn {
-	font-size: 4rem;
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
+	border: 1px solid #000;
+	padding: 1% 2%;
+}
+
+.btn:first-of-type {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.btn:last-of-type {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
