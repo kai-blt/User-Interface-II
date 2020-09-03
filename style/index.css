@@ -76,11 +76,13 @@ body {
 }
 
 header {
-	text-align: center;
-	margin: 2% 0;	
+	margin: 2% 0;
 }
 
 nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 	margin: 2% 0;
 }
 
@@ -100,7 +102,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 8rem;
+	font-size: 8rem;
+	text-align: center;
 }
 
 h2 {
@@ -167,11 +170,19 @@ a {
 	margin: 4% 0;
 }
 
+.footer-flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 /*----Buttons----*/
 .btn {
 	font-size: 2.5rem;
 	letter-spacing: .2rem;
 	border: 1px solid #540b0e;
+	width: 15rem;
 	padding: 1% 2%;
 	color: #9e2a2b;
 	background-color: #fff3b0;
