@@ -113,7 +113,8 @@ a {
 	height: 30vh;
 	background-attachment: fixed;
 	background-size: cover;
-	margin: 4% 0;
+	margin: 4% 0;	
+	box-shadow: inset 20px 20px 40px #101214;
 }
 
 .project-flex {
@@ -131,6 +132,7 @@ a {
 	background: url('https://picsum.photos/400/800');
 	background-size: cover;
 	background-repeat: no-repeat;
+	box-shadow: inset 20px 20px 40px #101214;
 }
 
 .project_info {
