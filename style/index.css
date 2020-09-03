@@ -50,8 +50,13 @@ table {
 }
 
 
-
-
+/*----Color Palette----
+335c67 - accent
+fff3b0 - lightest
+e09f3e - lighter
+9e2a2b - mids
+540b0e - dark
+----Color Palette----*/
 
 
 /*----Base CSS Begin----*/
@@ -83,9 +88,15 @@ section {
 	margin: 2% 0;
 }
 
+footer {
+	height: 30vh;	
+	background-color: #540b0e;
+}
+
 h1, h2, h3, h4, h5, h6 {	
 	font-family: 'Prata', serif;
-    font-weight: 700;
+	font-weight: 700;
+	color: #335c67;
 }
 
 h1 {
@@ -98,8 +109,8 @@ h2 {
 
 a {
 	text-decoration: none;
+	display: inline-block;	
 	color: #000;
-	display: inline-block;
 }
 
 /*----Structure----*/
@@ -145,8 +156,16 @@ a {
 .btn {
 	font-size: 2.5rem;
 	letter-spacing: .2rem;
-	border: 1px solid #000;
+	border: 1px solid #540b0e;
 	padding: 1% 2%;
+	color: #9e2a2b;
+	background-color: #fff3b0;
+}
+
+.btn:hover{
+	transition: 1s;
+	transform: scale(1, -1);
+	background-color: #540b0e;
 }
 
 .btn:first-of-type {
