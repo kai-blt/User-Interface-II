@@ -120,7 +120,16 @@ a {
 
 .project-flex div {
 	width: 20%;
+	margin: 0 2%;
 }
+
+.project {
+	color: #fff;
+	background: url('https://picsum.photos/400/800');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 
 /*----Buttons----*/
 .btn {
