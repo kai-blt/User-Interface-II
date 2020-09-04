@@ -185,9 +185,18 @@ span {
 .footer-flex {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
+
+.footer-flex div {
+	width: 20%;
+	height: 10%;
+	flex-grow: 1;
+	margin: 0 2%;
+}
+
+
 
 /*----Buttons----*/
 .btn {
@@ -220,6 +229,7 @@ span {
 .footer-btn {
 	font-size: 2rem;
 	padding: 4%;
+	flex-grow: 3;
 }
 
 .projects-btn {
@@ -232,5 +242,6 @@ span {
 
 /*----Images/Logos----*/
 .LinkedIn {
-	width: 9%;
+	width: 20%;
+	flex-grow: 2;
 }
