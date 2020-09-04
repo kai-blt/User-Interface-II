@@ -133,6 +133,17 @@ span {
 	font-weight: 900;
 }
 
+/*----Screen Reader Compatibility----*/
+.screen-reader {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+  }
+
 /*----Structure----*/
 .container {
     max-width: 100%;
