@@ -98,6 +98,7 @@ footer {
 h1, h2, h3, h4, h5, h6 {	
 	font-family: 'Prata', serif;
 	font-weight: 700;
+	margin: 0 2%;
 	color: #335c67;
 }
 
@@ -118,7 +119,7 @@ h3 {
 }
 
 p {
-	margin-bottom: 2%;
+	margin: 2% 2%;
 }
 
 a {
@@ -133,7 +134,7 @@ span {
 
 /*----Structure----*/
 .container {
-    width: 95%;
+    max-width: 100%;
     margin: 4% auto;
 }
 
@@ -158,6 +159,7 @@ span {
 	flex-grow: 1;
 	margin-right: 4%;
 	margin-top: 4%;
+	margin-left: 1%;
 	background: url('https://picsum.photos/400/800');
 	background-size: cover;
 	background-repeat: no-repeat;
