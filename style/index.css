@@ -217,25 +217,30 @@ span {
 	border: 1px solid #540b0e;
 	width: 15rem;
 	padding: .5% 1%;
-	color: #9e2a2b;
+	color: #4e4e4e;
 	background-color: #fff3b0;
 	text-align: center;
+	border-radius: 10px;
 }
 
 .btn:hover{
 	transition: 1s;
-	transform: rotateX(180deg);
-	background-color: #540b0e;
+	color: #fff;
+	background-color: #aa7d00;
 }
 
-.btn:first-of-type {
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+.btn.nav {
+	border-radius: 0;
 }
 
-.btn:last-of-type {
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+.btn.nav:first-of-type {
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+
+.btn.nav:last-of-type {
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
 }
 
 .footer-btn {
@@ -283,13 +288,17 @@ span {
 		font-size: 7.5rem;
 	}
 
-	.btn:first-of-type {
+	.btn {
+		width: 80%;
+	}
+
+	.btn.nav:first-of-type {
 		border-top-left-radius: 10px;
 		border-top-right-radius: 10px;
 		border-bottom-left-radius: 0px;
 	}
 	
-	.btn:last-of-type {
+	.btn.nav:last-of-type {
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		border-top-right-radius: 0px;
@@ -298,7 +307,7 @@ span {
 	.project {
 		width: 40%;
 	}
-
+ 
 	.btn.projects-btn, .btn.footer-btn {
 		border-radius: 10px;
 	}
