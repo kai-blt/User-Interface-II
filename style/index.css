@@ -170,10 +170,10 @@ span {
 
 
 .project:hover {
-	color: #540b0e;
 	transition: 2s;
 	flex-grow: 4;
-	filter: grayscale(100%);
+	filter: grayscale(100%);	
+	box-shadow: 15px 15px 40px #000;
 }
 
 .project_info {
