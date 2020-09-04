@@ -264,7 +264,11 @@ span {
 		flex-flow: column wrap;
 		justify-content: center;
 		align-items: center;
-		margin: 2% 0;
+		margin: 8% 0;
+	}
+	
+	h1 {
+		font-size: 7.5rem;
 	}
 
 	.btn:first-of-type {
@@ -281,5 +285,9 @@ span {
 
 	.project {
 		width: 40%;
+	}
+
+	.btn.projects-btn, .btn.footer-btn {
+		border-radius: 10px;
 	}
 }
