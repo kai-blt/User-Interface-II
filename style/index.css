@@ -236,6 +236,7 @@ span {
 	font-size: 2.5rem;
 	width: 24rem;
 	padding: 1% 1%;
+	margin: 2% 2%;
 }
 
 
@@ -250,6 +251,9 @@ span {
 
 /*----Tablet Breakpoint----*/
 @media (max-width: 800px) {
+	.project {
+		width: 30%;
+	}
 }
 
 
